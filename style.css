@@ -53,6 +53,7 @@ section input {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 section button {
