@@ -95,7 +95,7 @@ section button:hover {
     height: 38vh; /* Altura máxima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    opacity: 0.8;
+    opacity: 0.9;
     box-shadow: 0 9px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
