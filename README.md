@@ -1,45 +1,29 @@
-Lendo com a Rory: Um projeto para os fãs de Gilmore Girls
-O que é esse projeto?
+## **Lendo com a Rory: Um projeto para os fãs de Gilmore Girls**
 
-Este projeto web é um tributo à personagem Rory Gilmore, da série Gilmore Girls. A ideia é criar um espaço onde os fãs possam explorar os livros que a Rory leu e amou ao longo da série.
+Este projeto web é um tributo à personagem **Rory Gilmore**. A ideia é criar um espaço onde os fãs possam explorar os **livros** que a Rory leu e amou ao longo da série.
 
-Como funciona?
+**Como usar:**
 
-Pesquisa: Você pode pesquisar por livros, autores ou gêneros e encontrar uma lista de livros que se encaixam na sua busca.
-Detalhes dos livros: Para cada livro encontrado, você verá o título, autor, gênero e uma pequena sinopse.
-Trilha sonora: Para criar um ambiente mais imersivo, incluímos uma trilha sonora inspirada na série. Você pode tocar ou pausar a música a qualquer momento.
-Como usar?
+1. **Clone o repositório:** Faça um clone deste repositório para sua máquina local.
+2. **Abra o index.html:** Abra o arquivo `index.html` em seu navegador.
+3. **Comece a pesquisar:** Use o campo de pesquisa para encontrar seus **livros favoritos** da Rory.
 
-Clone o repositório: Faça um clone deste repositório para sua máquina local.
-Abra o index.html: Abra o arquivo index.html em seu navegador.
-Comece a pesquisar: Use o campo de pesquisa para encontrar seus livros favoritos da Rory.
-Como o código funciona?
+**Funcionalidades:**
 
-HTML: Cria a estrutura da página, com seções para pesquisa, resultados e o player de música.
-CSS: Estiliza a página, deixando-a com a cara da série Gilmore Girls.
-JavaScript:
-music.js: Controla a reprodução da música.
-app.js:
-Pesquisa: Realiza a pesquisa nos dados dos livros, filtrando por título, autor, gênero e sinopse.
-Exibição dos resultados: Cria elementos HTML para exibir os resultados da pesquisa.
-dados.js: Contém um array com os dados dos livros, incluindo título, autor, gênero e sinopse.
-Contribuições:
+* **Pesquisa:** Pesquise por **títulos**, **autores** ou **gêneros**.
+* **Detalhes:** Veja o **título**, **autor**, **gênero** e **sinopse** de cada livro.
+* **Trilha sonora:** Relaxe com a trilha sonora inspirada na série.
 
-Sinta-se à vontade para contribuir para este projeto! Você pode:
+**Contribuições:**
 
-Adicionar mais livros: Encontrou algum livro que a Rory leu e não está na lista? Adicione-o ao arquivo dados.js.
-Melhorar a interface: Sugira novas funcionalidades ou melhorias na interface do usuário.
-Corrigir bugs: Se encontrar algum bug, abra uma issue ou envie um pull request com a correção.
-Tecnologias utilizadas:
+Sinta-se à vontade para contribuir! Você pode:
+* **Adicionar livros**
+* **Melhorar a interface**
+* **Corrigir bugs**
 
-HTML: Estrutura da página.
-CSS: Estilização da página.
-JavaScript: Lógica da aplicação.
-Vamos juntos construir uma comunidade de fãs de Gilmore Girls e celebrar a paixão pelos livros!
+**Tecnologias:**
+* HTML
+* CSS
+* JavaScript
 
-Observações:
-
-Este é um projeto simples e divertido, criado para os fãs da série.
-O design e a funcionalidade podem ser melhorados com mais tempo e recursos.
-Sinta-se à vontade para personalizar o projeto de acordo com suas preferências.
-Divirta-se explorando os livros da Rory!
+**Vamos juntos celebrar a paixão pelos livros!**
