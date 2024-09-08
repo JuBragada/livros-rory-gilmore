@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Livros Gilmore Girls</title>
+    
+</head>
+<body>
+    <header>
+     <h1>Livros citados pela Rory Gilmore</h1>  
+    </header>
+    <main>
+        <section>
+            <audio id="myAudio">
+                <source src="musica.mp3" type="audio/mpeg">
+            </audio>
+            <button id="meuBotao" onclick="music(this)">Play music</button>
+        </section>
+        
+        <section>
+            <input type="text" placeholder="Busque por um livro" id="campo-pesquisa">
+            <button onclick="pesquisar()"> Pesquisar </button>  
+        </section> 
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            
+        </section> 
+        
+     
+    </main>
+    <footer>
+        <p>2024 - Livros citados pela Rory Gilmore. Todos os direitos reservados</p>
+        <p> Entre em contato pelo Linkedin: </p>
+        <p>
+            <a href= "https://www.linkedin.com/in/juliabragada/" target="_blank"> 
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
