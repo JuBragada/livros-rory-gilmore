@@ -126,8 +126,7 @@ let livros  = [
     titulo: "A Metamorfose",
     autor: "Franz Kafka",
     genero: "Ficção existencialista, Conto",
-    sinopse: "Um conto atemporal e perturbador, 'A Metamorfose' narra a história de Gregor Samsa, um homem que acorda transformado em um inseto gigante. A obra explora temas como alienação, solidão e   
-a condição humana, oferecendo uma visão sombria e absurda da existência."
+    sinopse: "Um conto atemporal e perturbador, 'A Metamorfose' narra a história de Gregor Samsa, um homem que acorda transformado em um inseto gigante. A obra explora temas como alienação, solidão e a condição humana, oferecendo uma visão sombria e absurda da existência."
 },
 {
     titulo: "A Monetary History of the United States",

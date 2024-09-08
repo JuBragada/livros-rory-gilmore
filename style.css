@@ -80,7 +80,7 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 82rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
+    height: 32vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
@@ -114,17 +114,6 @@ section button:hover {
     font-style: normal;
 }
 
-/* Estiliza os links dentro dos itens de resultado */
-.item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
-}
-
-/* Estiliza os links quando são passados o mouse sobre */
-.item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
     color: #c4cbda; /* Cor do texto */
@@ -136,10 +125,24 @@ footer {
     background-color: #503502; /* Cor de fundo do rodapé */
     color: #f8f0e0; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: o; /* Espaçamento interno */
+    padding:0; /* Espaçamento interno */
     left: 0;
-    width: 100%; /* Largura total da página */
+    width: 99.9%; /* Largura total da página */
     position: fixed; /* Posiciona o rodapé */
+    margin-top: 20px;
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    line-height: 0.5; /* Ajusta o espaçamento entre linhas conforme necessário */
 }
+
+footer a {
+    /* Estilos para os links dentro do rodapé */
+    color: #e7ac85; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a cor */
+  }
+
+footer a:hover {
+    /* Estilos para quando o mouse passa por cima do link */
+    color: #b18e67; /* Cor do link ao passar o mouse */
+  }

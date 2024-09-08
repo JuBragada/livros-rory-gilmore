@@ -6,6 +6,7 @@ function music() {
       audio.pause();
     }
   }
+  
 function pesquisar() {
     // Obtém a seção onde os resultados da pesquisa serão exibidos
     let section = document.getElementById("resultados-pesquisa");
